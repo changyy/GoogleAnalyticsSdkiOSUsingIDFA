@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 	s.libraries = 'GoogleAnalyticsServices', 'AdIdAccess', 'z', 'sqlite3'
 	s.preserve_paths = 'GoogleAnalyticsServicesiOS_3.09'
 	s.xcconfig = {
-		'LIBRARY_SEARCH_PATHS' => "$(PODS_ROOT)/GoogleAnalyticsSdkiOS/GoogleAnalyticsServicesiOS_3.09/**"
+		'LIBRARY_SEARCH_PATHS' => "$(PODS_ROOT)/GoogleAnalyticsSdkiOSUsingIDFA/GoogleAnalyticsServicesiOS_3.09/**"
 	}
 	s.framework = 'Foundation', 'UIKit', 'CFNetwork', 'CoreData', 'SystemConfiguration', 'AdSupport'
 	s.requires_arc = true
