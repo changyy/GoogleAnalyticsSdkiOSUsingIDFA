@@ -1,5 +1,6 @@
 Pod::Spec.new do |s|
 	s.name = 'GoogleAnalyticsSdkiOSUsingIDFA'
+	s.summary = 'GoogleAnalyticsSdkiOSUsingIDFA'
 	s.homepage = 'https://developers.google.com/analytics/devguides/collection/ios/'
 	s.version = '3.13'
 	s.license = {
